@@ -3,84 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>завдання 3</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Завдання 3</title>
+    <link rel="stylesheet" href="style.css">
     <style type="text/css" id="operaUserStyle"></style>
 </head>
-<body>
+<body class="zavd3">
     <h2>Завдання 3</h2>
-    <div>
-        <table class="table_main" style="border: 1px solid #000;">
-<tbody>
-    <tr>
-        <th colspan="4">
-            <img src="./066b.gif" alt="Гіф">
-            Мої одногрупники
-        </th>
-    </tr>
-    <tr>
-        <td>
-            <a href="./biogr.html" target="iframe_a">
-                <img src="images (7).jpg" alt="1">
-            </a>
-            <br>
-            Грибник Юра
-        </td>
-        <td>
-            <a href="./biogr2.html" target="iframe_a">
-                <img src="images1.jpg" alt="1">
-            </a>
-            <br>
-Качок Андрій
-        </td>
-        <td>
-            <a href="./biogr3.html" target="iframe_a">
-                <img src="images3.jpg" alt="1">
-            </a>
-            <br>
-            Волошнецька Юля
-        </td>
-        <td>
-            <a href="./biogr4.html" target="iframe_a">
-                <img src="images6.jpg" alt="1">
-            </a>
-            <br>
-            Коропецька Аня
-        </td>
-    </tr>
-    <tr>
-        <td class="main_biografy" colspan="4">
-            <iframe class="ifreame" name="iframe_a" src frameborder="0" width="60%">
-                <html>
-                    <head></head>
-                        <body>
-                            <div align="center">
-                                <p>Коротка Біографія</p>
-                                <p>Качок Андрій</p>
-                                <p>Дата народження 24.07.1999</p>
-                                <p>
-                                    Електронна скринька
-                                    <a href="cahoc.and@gmail.com">Качок</a>
-                                </p>
-                                <p>Улюбленна мелодія: Пісня з титаніка</p>
-                            </div>
-                        </body>
-                </html>
-            </iframe>
-        </td>
-    </tr>
-</tbody>
-    </table>
-    <div class="audio">
-        <audio controls src="./Randevu - Гуцулка Ксеня_(mp3world.net).mp3"></audio>
-<a href="./Randevu - Гуцулка Ксеня_(mp3world.net).mp3" download>Завантажити аудіо</a>
+    <p></p>
+    <h3>Властивості position</h3>
+    <p class="rel_bot">position"relative"</p>
+
+    <div class="relative">
+        <p class="one">Перший</p>
+        <p class="two">Другий</p>
+        <p class="tree">Третій</p>
+        <p class="four">Четвертий</p>
     </div>
-    <div class="video">
-        <a href="https://youtu.be/eq2ENtUDssQ?si=OWhKzE7RzU-ECxd_" download>Завантажити відео</a>
+
+    <p class="abs_bot">position"absolute"</p>
+    <div class="absolute">
+
+        <p>Я базовий елемент рівня блоку. Мої суміжні елементи рівня блоку сидять на нових рядках піді мною.</p>
+
+        <p class="positioned">
+            За замовчуванням ми охоплюємо 100% ширини нашого батьківського елемента, а висота дорівнює
+			дочірньому вмісту.
+			Наша загальна ширина та висота — це наш вміст + відступ + ширина/висота рамки.
+        </p>
+
+        <p>Нас розділяють наші поля. Через зменшення поля ми розділені шириною одного з наших полів, а не обох.</p>
+
+        <p>
+            "вбудовані елементи"
+            <samp>як цей</samp>
+            "i"
+            <samp>Цей</samp>
+            " сидять на
+			один і той самий рядок, а також сусідні текстові вузли, якщо є пробіл
+			та сама лінія. Переповнені вбудовані елементи
+			"
+            <span>перенести на новий рядок, якщо це можливо — як цей, що містить текст</span>
+            ,
+			або просто перейдіть до нового рядка, якщо ні, подібно до цього зображення:
+        </p>
     </div>
-    <div style="margin: 3%;">
-    <a style="color: #000; font-size: 20px;" href="/index.html">Головна</a>
+
+    <p class="fix_bot">position "fixed"</p>
+    <div class="fixed">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ex ut, quis tenetur voluptates accusantium optio animi maxime, praesentium laboriosam reiciendis facere adipisci velit, voluptatum nemo deserunt ipsum perspiciatis impedit iusto. Recusandae illum at dolorum asperiores. Obcaecati pariatur totam assumenda quaerat mollitia alias maiores rerum illo praesentium in necessitatibus, ducimus aperiam corrupti enim suscipit dignissimos magnam libero. Ratione harum sapiente neque repellendus esse laborum illum, dolorum numquam fugit commodi! Laudantium at, omnis, ex dolorem iusto optio numquam, quasi quisquam molestiae dolorum aspernatur? Sit quia itaque iste sed animi assumenda minima exercitationem voluptatibus aliquid vitae? Velit quibusdam cumque hic cum molestias.</p>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, veritatis adipisci! Maxime eligendi dolores omnis accusamus voluptas nihil aliquam eveniet reprehenderit eaque, ipsum aperiam perspiciatis, nisi quae earum, adipisci sequi porro natus eos vero distinctio. Eum quae accusantium repellendus omnis beatae ut, vitae consequatur iste nobis non. Deserunt impedit quidem molestiae velit fugit architecto qui adipisci quas quae ut minus, dicta quis obcaecati repellendus quo eius voluptatibus vero a tempora veniam vel accusantium facere error? Hic sunt libero fugiat culpa neque magni doloremque reprehenderit aliquam iure, sint consectetur, minima voluptas quis ipsa vero eius quos deserunt sed modi facere doloribus repellat harum nesciunt officia? Dolor impedit beatae numquam atque velit molestias ipsa cum perferendis distinctio quasi ea nihil, perspiciatis necessitatibus!</p>
+   
+    <div class="box" id="one">один</div>
+ </div>
+ <hr>
+ <div>
+    <h3>"Властивості float"
+        <div class="float">
+            <div class="left">1</div>
+            <div class="left">2</div>
+            <div class="right">3</div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore in omnis accusantium id nobis praesentium recusandae excepturi ratione, numquam maxime placeat pariatur minima quam amet? Dolorem error neque animi soluta fugiat nemo voluptatem praesentium similique vitae ipsa quasi reprehenderit est dignissimos temporibus sed, explicabo dolore suscipit molestias modi excepturi vel!</p>
+        </div>
+    </h3>
+ </div>
+ <hr>
+ <div>
+ <h3>Властивості clear</h3>
+ <p class="clr_bot">clear"left"</p>
+ 
+ <div class="clr_bot">
+    <p class="black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ut? Impedit esse totam aliquam quo molestiae sit, alias nesciunt rerum, natus possimus a architecto, nostrum nam ipsa reprehenderit? Distinctio, doloribus.</p>
+
+    <p class="red"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta quod vitae rerum dolorem autem unde ducimus ab mollitia aspernatur iste.</p>
+    
+    <p class="left1">Цей абзац щчищується зліва</p>
+ </div>
+
+ <p class="clr_bot">clear""right</p>
+ <div class="clr_right">
+    <p class="black bl_right">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem earum nihil rem aliquam ullam accusantium officia reprehenderit ad tempora voluptates reiciendis in a, harum alias, optio non porro iusto cupiditate!
+    </p>
+
+    <p class="red bl_right">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, eum?</p>
+
+    <p class="right1"> Цей абзац очищується зліва</p>
+ </div>
+ <div class="clr_bot">clear "boat"
+ <p class="black lef_boat">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate a distinctio reiciendis atque vel expedita excepturi, veniam temporibus iure iusto quisquam vitae, quos adipisci mollitia nam consectetur officia et!
+ </p>
+ <p class="red rig_boat">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cumque ex harum quos esse corrupti at inventore aperiam odit, iusto ut numquam sunt minus repudiandae officia qui vero accusantium dignissimos?</p>
+
+ <p class="boat1">цей абзац очищує два</p>
+</div>
+</div>
+<hr>
+
+<div class="index">
+
+    <h3> Властивості z-index</h3>
+    <div id="rel1">
+        <strong>блок №1</strong>
+        <br>
+        <br>
+        "z-index 3"
     </div>
+
+    <div id="rel2">
+        <strong>Блок №2</strong>
+        <br>
+        <br>
+        "z-index:2"
+    </div>
+
+    <div id="sta1">Блок №3
+    <br>
+    <br>
+    "z-index:4"
+</div>
 </div>
 </body>
 </html>
